@@ -77,11 +77,6 @@ function Hero() {
   ];
   return (
     <div>
-      <div className="video">
-        <div className="video_content">
-          <p>video</p>
-        </div>
-      </div>
       <div className="plus">
         <h4>
           Официальный магазин <b>FRANK</b>{" "}
@@ -120,6 +115,11 @@ function Hero() {
             <h5>Широкий ассортимент</h5>
             <p>Самый широкий ассортимент в Казахстане</p>
           </div>
+        </div>
+      </div>
+      <div className="video">
+        <div className="video_content">
+          <p>video</p>
         </div>
       </div>
       <div className="ready-made_kits">
